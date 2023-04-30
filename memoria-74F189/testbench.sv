@@ -2,7 +2,6 @@ module testeMemoria;
   logic[0:3] Address_In, Data_In;
   	logic CS, WE, reset;
   	logic[0:3] Data_Out;
-  	//logic[0:6] cont_out_display1, cont_out_display2, cont_out_display3;
   
   mem memoria(.Address_In(Address_In), .CS(CS), .WE(WE), .Data_In(Data_In), .Data_Out(Data_Out));
   
