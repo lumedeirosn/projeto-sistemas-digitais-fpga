@@ -51,7 +51,6 @@ module teste2;
 	reset = 0;
     cont_bin = 5;
     
-    // Testes da saída do conversor feitos com laços de repetição.
     for(int i = 0; i < 10; i++)begin
        #1 cont_bin++;
       if(i == 5) begin
