@@ -63,8 +63,6 @@ module conversor( cont_bin, reset, cont_out_display);
  	output logic[0:6] cont_out_display;
   
   	always_comb begin
-      
-      // A seguir, a lógica do conversor eh implementada com always_comb para sempre monitorar a lógica combinatória e a saída do conversor eh determinada pela lógica dos bits mais e menos significativos do display da FPGA. A saída também eh barrada, uma vez que o led acente em nível lógico baixo.
    		if(reset) begin
       		cont_out_display = ~7'b0000000;
         end
